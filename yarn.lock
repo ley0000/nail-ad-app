@@ -7182,6 +7182,10 @@ react-error-overlay@^5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.0.4.tgz#39cf184d770f98b65a2ee59a779d03b8d092b69e"
 
+react-html5video@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/react-html5video/-/react-html5video-2.5.1.tgz#bbc4314be1d583cb991a11ca3480e70a3c964caf"
+
 react-native-web@^0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.9.1.tgz#6f9d089e7fbbcac32a44791ad6f484385ff90b87"

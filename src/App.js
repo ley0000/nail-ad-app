@@ -33,6 +33,10 @@ class App extends Component {
     fetch("http://nailonomicapi.haricotinc.com/api/pos/banner/views", {
       headers: {
         Authorization: 'haricotinc.pos.nailonomic',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
+        'Access-Control-Allow-Headers': 'X-Requested-With,content-type',
+        'Access-Control-Allow-Credentials': true
       }
     })
       .then(res => res.json())
@@ -41,6 +45,7 @@ class App extends Component {
       })
       .catch((error) =>{
         alert(error)
+        this.setState({ slideImages: slideImages })
         return []
         });
   }
